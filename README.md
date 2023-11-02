@@ -21,6 +21,10 @@ Deploys and synchronizes the changes in manifest files with CloudFormation stack
 
 ## Cleanup resources
 
+### Delete the service
+
+    copilot svc delete
+
 ### Delete the app
 
     copilot app delete
