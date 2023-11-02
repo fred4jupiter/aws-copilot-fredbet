@@ -13,3 +13,18 @@ for more details.
     cd copilot
     copilot deploy
 
+### Update the environment
+
+Deploys and synchronizes the changes in manifest files with CloudFormation stack:
+
+    copilot env deploy
+
+## Cleanup resources
+
+### Delete the app
+
+    copilot app delete
+
+### Delete the test environment
+
+    copilot env delete --name test
