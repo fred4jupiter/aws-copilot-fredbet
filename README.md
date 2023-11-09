@@ -17,7 +17,7 @@ Deploys and synchronizes the changes in manifest files with CloudFormation stack
     copilot env init
     copilot env deploy --name test
 
-### App Deployment
+### Deploy the application/service
 
     copilot svc deploy --name fredbet-service --env test
 
