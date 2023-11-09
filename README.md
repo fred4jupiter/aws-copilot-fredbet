@@ -8,16 +8,18 @@ the [AWS Copilot CLI](https://aws.github.io/copilot-cli/).
 Be sure you have the AWS Copilot CLI installed. See [installation instructions](https://aws.github.io/copilot-cli/docs/getting-started/install/)
 for more details.
 
-### Deployment
+>**Run the commands from the git root directory!**
 
-    cd copilot
-    copilot deploy
-
-### Update the environment
+### Create the environment
 
 Deploys and synchronizes the changes in manifest files with CloudFormation stack:
 
-    copilot env deploy
+    copilot env init
+    copilot env deploy --name test
+
+### App Deployment
+
+    copilot svc deploy --name fredbet-service --env test
 
 ## Cleanup resources
 
