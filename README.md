@@ -10,15 +10,14 @@ for more details.
 
 >**Run the commands from the git root directory!**
 
-### Create the environment
+### Deployment
 
 Deploys and synchronizes the changes in manifest files with CloudFormation stack:
 
+    copilot app init
     copilot env init
     copilot env deploy --name test
-
-### Deploy the application/service
-
+    copilot svc init
     copilot svc deploy --name fredbet-service --env test
 
 ## Cleanup resources
